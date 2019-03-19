@@ -30,6 +30,7 @@ public class FacebookStep {
 
 	@Then("User should be able to succefully Login")
 	public void user_should_be_able_to_succefully_Login() {
+		System.out.println("java is fun");
 	   Driver.closeDriver();
 	}
 
