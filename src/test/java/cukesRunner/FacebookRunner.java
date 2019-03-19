@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/java/features",glue="stepDefinations",
 		plugin= {"pretty","html:target/cucumber/report"},
-		monochrome=true,strict=true,dryRun=false
+		monochrome=true,strict=true,dryRun=false,tags="@sign"
 		)
 public class FacebookRunner {
 
